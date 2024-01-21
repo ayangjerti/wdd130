@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Comfortaa&family=Rubik+Doodle+Triangles&display=swap');
+
+:root{
+        --primary-color: #00A7E1;
+        --secondary-color: #FF9B42;
+        --accent1-color: #D9E5D6;
+        --accent2-color: #F7A072;
+        
+        --heading-font: 'Black Ops One', serif;
+        --paragraph-font: 'comfortaa', serif;
+
+        --nav-background-color:#FF9B42 ;
+        --nav-link-color: #fff;
+        --nav-hover-link-color: #D9E5D6;
+        --nav-hover-background-color: #00A7E1;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
