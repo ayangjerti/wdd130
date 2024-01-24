@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
 }
@@ -8,20 +14,22 @@ main {
 
 
 aside {
+  position: relative;
   width: 30rem;
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  padding: 1rem;
-  background-color: steelblue;
-  color: black;
   text-align: center;
 }
 
 aside img{
+  padding: 5px;
   width: 200px;
   height: auto;
 }
 
+aside h2 {
+  position: absolute;
+  top: -5px;
+  right: 150px;
+}
 
 
 
@@ -42,10 +50,11 @@ h1 {
 }
 
 main img{
+  float: right;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
-  padding: 2px;
+  padding: 2px 2px;
   box-shadow: 0 0 30px gray;
 }
 
@@ -57,4 +66,13 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+/* Class Selector*/
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  color: black;
+  background-color: rgb(61, 158, 232);
 }
