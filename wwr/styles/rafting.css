@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Comfortaa&family=Rubik+Doodle+Triangles&display=swap');
+
+
+:root{
+    --primary-color: #00A7E1;
+    --secondary-color: #FF9B42;
+    --accent1-color: #D9E5D6;
+    --accent2-color: #F7A072;
+    
+    --heading-font: 'Black Ops One', serif;
+    --paragraph-font: 'comfortaa', serif;
+
+    --nav-background-color:#FF9B42 ;
+    --nav-link-color: #121111;
+    --nav-hover-link-color: #D9E5D6;
+    --nav-hover-background-color: #00A7E1;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    font-weight: bolder;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0;
+}
+
+p{
+    font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+
+}
+
+article img {
+    float: right;
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+article {
+    position: absolute;
+    padding: 10px;
+    margin: 40px;
+    top: 50%;
+    background-color: rgba(61, 158, 232, 0.5);
+}
+
+
+
+h1{
+    position: absolute;
+    box-sizing: border-box;
+    top: 1%; 
+    text-align: center;
+    font-size: 500%;
+    display: flex;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    background-color: rgba(63, 70, 76, 0.5);
+    
+}
+ 
+ 
+section img {
+    width: 30rem;
+    display: block;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
