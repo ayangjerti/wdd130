@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #00A7E1;
+    --primary-color: #05b8c5;
     --secondary-color: #FF9B42;
     --accent1-color: #D9E5D6;
     --accent2-color: #F7A072;
@@ -39,7 +39,7 @@ a {
 header{
     display: grid;
     grid-template-columns: 2fr 3fr; 
-    background-color: rgba(50, 81, 61, 0.5);
+    background-color: rgba(15, 220, 227, 0.6);
     justify-content: space-around;
     border-bottom: 1px solid rgb(6, 16, 20)
 }
@@ -68,7 +68,9 @@ article {
     padding: 10px;
     margin: 40px;
     top: 50%;
-    background-color: rgba(140, 201, 245, 0.5);
+    background-color: rgba(5, 204, 211, 0.6);
+    color: rgb(50, 44, 21);
+    font-weight: bolder;
 }
 
 .articleimage {
