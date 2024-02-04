@@ -140,9 +140,8 @@ nav a {
     padding: 1rem;
 }
 .uppernav{
-    text-align: right;
+    /* text-align: right; */
     align-self:center;
-    
 }
 
 nav a:link, nav a:visited {
