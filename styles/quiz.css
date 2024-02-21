@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Comfortaa&family=Rubik+Doodle+Triangles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Roboto;
+  }
+
+  header{
+    display: grid;
+    grid-template-columns: 2fr 3fr; 
+    background-color: rgba(249, 192, 5, 0.6);
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(6, 16, 20)
+}
+
+  h1 {
+    color: steelblue;
+    font-family: sans-serif;
+    border-bottom: 1px solid steelblue ;
+  }
+
+  form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(15, 220, 227, 0.6);
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+    display: grid;
+  }
+
+
+  label, input, button, select, textarea {
+    font-family: 'comfortaa', Times, serif;
+  }
+  
+  label{
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+
+  button{
+    margin: 1rem;
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+
+  button:hover {
+    background-color: tomato;
+  }
+
+
+  .form-item{
+    display: grid;
+    align-items: center;
+  }
+
