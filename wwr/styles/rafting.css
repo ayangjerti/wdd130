@@ -104,7 +104,6 @@ h1{
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(200px /auto);
     /* justify-content: space-around; */
     gap: 10%;
     margin: 3px ;
@@ -119,7 +118,7 @@ h1{
     border: 1px solid rgb(0, 4, 6);
     grid-column: 1/2;
     grid-row: 2/3;
-    content: 100%;
+    /* content: 100%; */
 }
 #achievements{
     grid-column: 2/4;
@@ -199,12 +198,19 @@ nav a:hover {
 
 
 /* contact us css */
+#contacth1{
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    padding: 0;
+    color: lightskyblue;
+
+}
 
 #contactbox{
     display: grid;
     max-width: 100%;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: minmax(200px /auto);
     /* justify-content: space-around; */
     gap: 5%;
     /* margin: 3px ;
