@@ -50,14 +50,14 @@ header img{
     justify-self: center;
 
 }
-.hero{
+.hero, #hero{
     position: relative;
 
 }
 
 
 
-.hero img {
+.hero img, #hero img  {
     /* box-sizing: border-box; */
     display: block;
     width: 100%;
@@ -85,6 +85,9 @@ article {
 
 
 
+
+
+
 h1{
     position: absolute;
     box-sizing: border-box;
@@ -98,6 +101,20 @@ h1{
     width: 100%;
     background-color: rgba(63, 70, 76, 0.5);
     
+}
+
+.hero-content h2{
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 250%;
+    text-align: center;
+    top: 1%; 
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(63, 70, 76, 0.5);
+    width: 100%;
 }
 
 .sechis{
@@ -237,13 +254,13 @@ button{
             
   }
 
-  #employee-profiles, #contactbox, #intropara{
+  #employee-profiles, #contactbox, #intropara, #cta{
     background-color: rgba(118, 122, 122, 0.5); 
     border: none;
     border-radius: .5rem;
   }
 
-  #intropara{
+  #intropara, #cta{
     font-family: var(--paragraph-font);
     font-weight: bold;
     font-size: xx-large;
@@ -251,7 +268,7 @@ button{
 
   }
 
-  .employee{
+  .employee, .trip-description{
     margin-top: 20px;
     
   }
@@ -260,3 +277,92 @@ button{
     border: none;
     border-radius: .5rem;
   }
+
+
+  /* trips css */
+  /* styles.css */
+
+/* Basic styling for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4497e5;
+    color: #fff;
+}
+
+#explore, #tablehead{
+    position: relative;
+    text-align: left;
+    font-size: 45px;
+    border-bottom: 1px solid lightskyblue;
+    margin: 0;
+    color: lightskyblue;
+}
+
+/* Highlight the table header row */
+thead th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Add some hover effect to table rows */
+tbody tr:hover {
+    background-color: #f9ab10;
+}
+
+table{
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+}
+
+
+
+#tripsNreviewntable{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "trips trips reviews"
+        "table table reviews";
+    gap: 20px;
+}
+
+
+#table {
+    grid-area: table;
+}
+
+.trip-description{
+    border-bottom: 4px solid lightskyblue;
+
+}
+
+#tripimg{
+    border: none;
+    border-radius: .5rem;
+}
+
+
+
+css for homepage 
+
+
+
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 100%;
+}
+
